@@ -1,0 +1,42 @@
+{
+  "name": "FL Duly Noted",
+  "description": "Leave notes on storylet branches in Fallen London.",
+  "version": "1.2.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+      "https://www.fallenlondon.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.fallenlondon.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/images/fl-duly-noted-icon-16.png",
+      "32": "/images/fl-duly-noted-icon-32.png",
+      "48": "/images/fl-duly-noted-icon-48.png",
+      "128": "/images/fl-duly-noted-icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/fl-duly-noted-icon-16.png",
+    "32": "/images/fl-duly-noted-icon-32.png",
+    "48": "/images/fl-duly-noted-icon-48.png",
+    "128": "/images/fl-duly-noted-icon-128.png"
+  },
+  "web_accessible_resources": []
+}
