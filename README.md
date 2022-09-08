@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/lensvol/fl-duly-noted)](https://github.com/lensvol/fl-duly-noted/blob/main/LICENSE) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/lensvol/fl-duly-noted) 
 
-![screenshot](https://raw.githubusercontent.com/lensvol/fl-duly-noted/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/lensvol/fl-duly-noted/blob/main/screenshot.png)
 
 Simple browser extension for [Fallen London](https://www.fallenlondon.com/) that lets you leave notes on storylet branches.
 
