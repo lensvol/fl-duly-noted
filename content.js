@@ -161,6 +161,10 @@ function setBranchNote(node, text) {
         }
     }
 
+    if (text === "") {
+        return;
+    }
+
     const noteTextNode = createLabelNode(`NOTE: ${text}`);
     noteTextNode.setAttribute("id", "user-note");
     const noteContainer = document.createElement("p");
@@ -252,9 +256,11 @@ let mainContentObserver = new MutationObserver(function (mutations) {
                             (note) => {
                                 if (note.length > 0) {
                                     USER_NOTES[noteKey] = note;
-                                    setBranchNote(branch, note);
-                                    persistNotes();
+                                } else {
+                                    delete USER_NOTES[noteKey];
                                 }
+                                setBranchNote(branch, note);
+                                persistNotes();
                             }
                         );
                     });
