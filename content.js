@@ -170,7 +170,7 @@ function setBranchNote(node, text) {
     const noteContainer = document.createElement("p");
     noteContainer.appendChild(noteTextNode);
 
-    const description = node.querySelector("div[class='media__body branch__body'] > div > p");
+    const description = node.querySelector("div[class='media__body branch__body'] > div > p, div[class='storylet__description-container'] > p");
     const annotation = description.querySelector("span[class='descriptive']");
 
     const branchText = description.textContent;
