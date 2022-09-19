@@ -251,7 +251,7 @@ let mainContentObserver = new MutationObserver(function (mutations) {
                             "A few words about this branch:",
                             "Save",
                             USER_NOTES[noteKey] || "Hello, world!",
-                            "For example: warning about special consequences, future plans, random thoughts.",
+                            "To remove your note simply leave the field empty.",
                             (note) => {
                                 if (note.length > 0) {
                                     USER_NOTES[noteKey] = note;
