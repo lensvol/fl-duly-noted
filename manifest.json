@@ -3,13 +3,16 @@
   "description": "Leave notes on storylet branches in Fallen London.",
   "version": "1.0.0",
   "manifest_version": 2,
-  "permissions": ["tabs", "storage"],
   "background": {
     "scripts": [
       "background.js"
     ],
     "persistent": true
   },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
   "content_scripts": [
     {
       "matches": [
