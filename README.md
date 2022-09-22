@@ -1,6 +1,6 @@
 # FL Duly Noted
 
-[![License](https://img.shields.io/github/license/lensvol/fl-duly-noted)](https://github.com/lensvol/fl-duly-noted/blob/main/LICENSE) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/lensvol/fl-duly-noted) 
+[![License](https://img.shields.io/github/license/lensvol/fl-duly-noted)](https://github.com/lensvol/fl-duly-noted/blob/main/LICENSE) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/lensvol/fl-duly-noted) [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/beajhalfcfecdnbjlncbbhgpnikekemk)](https://chrome.google.com/webstore/detail/fl-duly-noted/beajhalfcfecdnbjlncbbhgpnikekemk) 
 
 ![screenshot](https://github.com/lensvol/fl-duly-noted/raw/main/screenshot.png)
 
@@ -9,6 +9,7 @@ Simple browser extension for [Fallen London](https://www.fallenlondon.com/) that
 _NB: This extension is **not** yet whitelisted by Failbetter Games. Use at your own risk!_ 
 
 Grab it here:
+* [Chrome Web Store](https://chrome.google.com/webstore/detail/fl-duly-noted/beajhalfcfecdnbjlncbbhgpnikekemk)
 * [Releases page](https://github.com/lensvol/fl-duly-noted/releases) (most up-to-date, see below for instructions)
 
 
