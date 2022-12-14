@@ -1,6 +1,6 @@
 
 const GLOBE_BTN_CLASS_LIST = "fa fa-inverse fa-stack-1x fa-pencil";
-const EXTENSION_NAME = 'FL Masquerade';
+const EXTENSION_NAME = 'FL Duly Noted';
 
 let USER_NOTES = {
     "branch_134607": "Horrible singing."
