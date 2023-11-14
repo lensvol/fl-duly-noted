@@ -1,7 +1,7 @@
 {
   "name": "FL Duly Noted",
   "description": "Leave notes on storylet branches in Fallen London.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 2,
   "background": {
     "scripts": [
