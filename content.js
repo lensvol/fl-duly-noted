@@ -237,8 +237,14 @@ let mainContentObserver = new MutationObserver(function (mutations) {
             }
 
             for (const branch of branchContainers) {
-                const branchId = branch.attributes["data-branch-id"].value;
+                const branchId = parseInt(branch.attributes["data-branch-id"].value);
                 const noteKey = `branch_${branchId}`;
+
+                // For some reason FBG re-used branch container for list of resettable storylets
+                // on "Fate" page, but thankfully they sat 'data-branch-id' to 0.
+                if (branchId === 0) {
+                    continue;
+                }
 
                 if (!branch.querySelector("button[id='branchNote']")) {
                     const editButton = createButtonlet("branchNote", "pencil", "Make a note on this branch");
